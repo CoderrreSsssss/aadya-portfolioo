@@ -7,7 +7,35 @@ const includePattern = /^IMG_/i
 const heroFile = '', aboutFile = '', featuredFile = ''
 // Optional per-photo details, keyed by filename. Anything you skip is filled in automatically.
 const details = {
-  // 'IMG_0078.jpeg': { category: 'portrait', title: 'The Quiet Gaze', caption: 'One short line about the photo.', location: 'City', year: 2025, story: 'Longer note', camera: 'Phone model', settings: 'f/1.8 · 1/120s' },
+'IMG_4641.jpeg': { category: 'nature', title: 'Golden Grazing', caption: 'Quiet afternoon light on open ground.' },
+'IMG_4668.jpeg': { category: 'street', title: 'Urban Appetite', caption: 'Capturing flavors under warm café lights.' },
+'IMG_7371.jpeg': { category: 'creative', title: 'Matcha Motion', caption: 'Careful craft behind the barista counter.' },
+'IMG_6306.jpeg': { category: 'nature', title: 'Dusk Silhouette', caption: 'Fading orange glow through leafy branches.' },
+'IMG_6331.jpeg': { category: 'architecture', title: 'Rooftop Horizon', caption: 'Sun dipping low over terrace tanks.' },
+'IMG_6911.jpeg': { category: 'architecture', title: 'Framed Sanctum', caption: 'Golden glow cut through marble shadow.' },
+'IMG_6956.jpg': { category: 'creative', title: 'Floating Crimson', caption: 'Vibrant petals resting in dark water.' },
+'IMG_6996.jpg': { category: 'creative', title: 'Quiet Bloom', caption: 'White lilies standing against empty space.' },
+'IMG_6296.jpg': { category: 'nature', title: 'Amber Horizon', caption: 'Evening glow fading into cool shadows.' },
+'IMG_7376.jpg': { category: 'architecture', title: 'Paved Perspective', caption: 'Modern corridor framed by tall greens.' },
+'IMG_7383.jpg': { category: 'street', title: 'Sweet Arrangement', caption: 'Rich chocolate slices ready to share.' },
+'IMG_7915.jpg': { category: 'travel', title: 'Ghat Currents', caption: 'Drifting gently toward illuminated ancient banks.' },
+'IMG_8179.jpg': { category: 'creative', title: 'Drifting Frames', caption: 'Tortoise rims afloat on clear ripples.' },
+'IMG_8827.jpg': { category: 'architecture', title: 'Warm Dusk', caption: 'Soft terrace glow beneath evening skies.' },
+'IMG_9859.jpg': { category: 'street', title: 'Garden Diner', caption: 'Lively cafe night veiled in foliage.' },
+'IMG_9864.jpg': { category: 'creative', title: 'Arrabbiata Twist', caption: 'Fresh tossed penne in rustic sauce.' },
+'IMG_0241.jpg': { category: 'street', title: 'Chime In', caption: 'Rainy afternoon chatter outside coffee corner.' },
+'IMG_4051.jpg': { category: 'street', title: 'Market Heaps', caption: 'Ripe harvest resting on wooden crates.' },
+'IMG_4138.jpg': { category: 'street', title: 'Pastel Scoops', caption: 'Chilled gelato tubs lined in rows.' },
+'IMG_0200.jpg': { category: 'nature', title: 'Layered Ridges', caption: 'Blue misty mountain folds stretching far.' },
+'IMG_0208.jpg': { category: 'nature', title: 'Pine Canopy', caption: 'Deep green foliage framing morning fog.' },
+'IMG_0199.jpg': { category: 'nature', title: 'Misty Valleys', caption: 'Rolling hills wrapped in soft haze.' },
+'IMG_7584754897.jpeg': { category: 'nature', title: 'Pelican Haven', caption: 'Preening birds beside lush forest banks.' },
+'IMG_0101.jpg': { category: 'creative', title: 'Color Blocks', caption: 'Vibrant painted bricks along the curb.' },
+'IMG_4017.jpg': { category: 'creative', title: 'Minimal Sweet', caption: 'Delicate pastry plated with fresh fruit.' },
+'IMG_0026.jpg': { category: 'nature', title: 'Sunset Tide', caption: 'Warm amber glow melting into ocean waves.' },
+'IMG_6891.jpg': { category: 'nature', title: 'Midnight Canopy', caption: 'Gnarled mossy branches reaching under dark skies.' },
+'IMG_8457348578.jpeg': { category: 'nature', title: 'Secret Stream', caption: 'Crystal water ripples through lush green enclosure.' },
+'IMG_6892.jpg': { category: 'architecture', title: 'Illuminated Heritage', caption: 'Sprawling tree branches framing lit colonial windows.' },
 }
 const matched = files.filter(f => includePattern.test(f))
 const photos = matched.length ? matched : files
