@@ -24,8 +24,8 @@ export const site = {
   headline: 'Through My Lens.',
   subline: 'Capturing the beauty of everyday moments, one frame at a time.',
   // Contact: leave '' to hide. Nothing is invented.
-  email: '',        // e.g. 'aadya@example.com'
-  instagram: '',    // e.g. 'https://instagram.com/yourhandle'
+  email: 'aadyakhadi@gmail.com',        // e.g. 'aadya@example.com'
+  instagram: 'https://instagram.com/a.addyy_',    // e.g. 'https://instagram.com/yourhandle'
   society: '',      // e.g. 'https://yourcollege.edu/photography-society'
   societyName: 'College Photography Society',
   images: { hero: img(heroFile || photos[0]), about: img(aboutFile || photos[1]) },
