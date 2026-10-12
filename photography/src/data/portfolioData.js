@@ -74,6 +74,7 @@ export const categories = [
   { key: 'street', label: 'Street', full: 'Street Photography' },
   { key: 'architecture', label: 'Architecture', full: 'Architecture & Details' },
   { key: 'creative', label: 'Creative', full: 'Creative & Experimental' },
+  { key: 'travel', label: 'Travel', full: 'Travel & Places' },
 ]
 
 const catKeys = ['portrait', 'nature', 'street', 'architecture', 'creative']
