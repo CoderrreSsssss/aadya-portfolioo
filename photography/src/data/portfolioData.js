@@ -89,7 +89,8 @@ const text = {
 export const gallery = photos.map((file, i) => {
   const o = details[file] || {}
   const category = o.category || catKeys[i % catKeys.length]
-  const t = text[category][Math.floor(i / catKeys.length) % text[category].length]
+const list = text[category] || text.creative
+const t = list[Math.floor(i / catKeys.length) % list.length]
   const title = o.title || t[0], caption = o.caption || t[1]
   return { ...o, id: i + 1, title, category, caption, image: img(file), alt: `${title}. ${caption}` }
 })
