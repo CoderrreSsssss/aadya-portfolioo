@@ -77,7 +77,7 @@ export const categories = [
   { key: 'travel', label: 'Travel', full: 'Travel & Places' },
 ]
 
-const catKeys = ['portrait', 'nature', 'street', 'architecture', 'creative']
+const catKeys = ['portrait', 'nature', 'street', 'architecture', 'creative', 'travel']
 // Default titles and one-line descriptions per category (used when a photo has no entry in `details`).
 const text = {
   portrait: [['The Quiet Gaze', 'A calm expression that says more than words.'], ['A Moment Unscripted', 'A natural, unposed moment.'], ['Unspoken Stories', 'Emotion held in a small gesture.'], ['Soft Light', 'Gentle light shaping a familiar face.'], ['Candid Frame', 'Caught between one moment and the next.'], ['Character Study', 'Personality showing through the details.']],
