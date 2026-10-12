@@ -36,6 +36,14 @@ const details = {
 'IMG_6891.jpg': { category: 'nature', title: 'Midnight Canopy', caption: 'Gnarled mossy branches reaching under dark skies.' },
 'IMG_8457348578.jpeg': { category: 'nature', title: 'Secret Stream', caption: 'Crystal water ripples through lush green enclosure.' },
 'IMG_6892.jpg': { category: 'architecture', title: 'Illuminated Heritage', caption: 'Sprawling tree branches framing lit colonial windows.' },
+'IMG_4800.jpg': { category: 'creative', title: 'Deep Cherries', caption: 'Glossy dark harvest piled in ceramic.' },
+'IMG_7419.jpg': { category: 'architecture', title: 'Skyline Passage', caption: 'Golden evening framed between urban towers.' },
+'IMG_3535.jpg': { category: 'creative', title: 'Open Shutter', caption: 'Quiet courtyard framed through rustic sill.' },
+'IMG_3655.jpg': { category: 'street', title: 'Diner Rhythm', caption: 'Warm kitchen bustle under industrial lights.' },
+'IMG_1140.jpg': { category: 'street', title: 'Pavement Prints', caption: 'Stacked stories and art on sidewalk.' },
+'IMG_4678.jpg': { category: 'architecture', title: 'Shadow Loft', caption: 'Timber stairs climbing through moody shadows.' },
+'IMG_4910.jpg': { category: 'creative', title: 'Dim Workspace', caption: 'Filtered daylight meeting soft screen glows.' },
+'IMG_0023.jpeg': { category: 'nature', title: 'Above Clouds', caption: 'Drifting high over endless velvet horizons.' },
 }
 const matched = files.filter(f => includePattern.test(f))
 const photos = matched.length ? matched : files
